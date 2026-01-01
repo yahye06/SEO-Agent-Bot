@@ -1,0 +1,16 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Run {
+  id        String   @id @default(uuid())
+  domain    String
+  topic     String
+  keywords  String
+  brief     String
+  createdAt DateTime @default(now())
+}
