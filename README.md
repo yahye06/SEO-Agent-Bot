@@ -1,39 +1,67 @@
-**SEO Agent Bot**
+SEO Agent Bot
 
-This project is a simple AI tool that helps generate SEO ideas.
+SEO Agent Bot is a simple AI tool that helps you generate SEO ideas for your website or topic.
 
-You enter:
+You just enter:
 
-**a website domain
+A website domain
 
-a topic**
+A topic
 
-The app uses AI to:
+The app will then use AI to:
 
-generate 20 keyword ideas
+Generate 20 keyword ideas
 
-create a structured content brief
+Create a structured content brief
 
-The results are saved and displayed so they can be reused later.
+All results are saved and displayed, so you can come back to them later.
+
+How It Works
+
+You fill out a form with your domain and topic.
+
+The AI generates ideas and a content brief automatically.
+
+Results are saved in a small database so you can view them anytime.
+
+No complicated setup — it’s built to be fast, simple, and useful.
+
+Tech Used
+
+Next.js – Makes the website interactive
+
+LangChain + OpenAI – Powers the AI generation
+
+Prisma + SQLite – Saves your results
+
+GitHub – Keeps track of changes
+
+Running Locally
+
+Clone the project:
+
+git clone https://github.com/yahye06/SEO-Agent-Bot.git
+cd SEO-Agent-Bot
 
 
-**Tech Used**
-
-**Next.js** – for the website
-
-**LangChain + OpenAI** – for AI generation
-
-**Prisma + SQLite** – to save results
-
-**GitHub** – for version control and collaboration
-
-
-**Running it Locallllly**
-
+Install the dependencies:
 
 npm install
+
+
+Add your OpenAI key (create a .env file in the project root):
+
+OPENAI_API_KEY=your_openai_api_key_here
+
+
+Start the app:
+
 npm run dev
 
 
+Open the website:
 
-Click the local host website that pops up  th=at says localhost....
+http://localhost:3000
+
+
+Enter a domain and topic, then see the AI-generated results!
