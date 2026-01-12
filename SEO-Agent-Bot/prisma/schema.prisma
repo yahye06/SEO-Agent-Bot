@@ -1,0 +1,33 @@
+// Generates the Prisma Client for database queries
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Database connection config.
+
+datasource db {
+  // Using SQLite for local development
+  provider = "sqlite"
+}
+
+// Table to store each SEO agent run
+
+model Run {
+  // Unique ID for each run (auto-generated UUID)
+  id        String   @id @default(uuid())
+
+  // Website domain being analyzed
+  domain    String
+
+  // Seed topic provided by the user
+  topic     String
+
+  // Generated keyword ideas (stored = text/JSON)
+  keywords  String
+
+  // Generated content brief (stored as text/JSON)
+  brief     String
+
+  // Timestamp when run
+  createdAt DateTime @default(now())
+}
