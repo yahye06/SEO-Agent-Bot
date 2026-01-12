@@ -30,7 +30,7 @@ Tech Used
 
 Next.js – Makes the website interactive
 
-LangChain + OpenAI – Powers the AI generation
+LangChain + OpenAI – haS the AI generation
 
 Prisma + SQLite – Saves your results
 
@@ -64,4 +64,4 @@ Open the website:
 http://localhost:3000
 
 
-Enter a domain and topic, then see the AI-generated results!
+Enter a domain and topic, then see the AI-generated results
