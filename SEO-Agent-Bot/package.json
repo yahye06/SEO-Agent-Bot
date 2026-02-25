@@ -1,7 +1,8 @@
 {
   "name": "seo-agent-bot",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+"private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -24,5 +25,9 @@
     "eslint-config-next": "16.1.1",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+
+
 }
+
+
