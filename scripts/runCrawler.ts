@@ -1,6 +1,6 @@
 import fs from "fs";
-import { crawlPage } from "../lib/crawler.ts";
-import { savePage, getPages } from "../lib/pageService.ts";
+import { crawlPage } from "../lib/crawler";
+import { savePage, getPages } from "../lib/pageService";
 
 // -----------------------------
 // Config & Safety Limits
